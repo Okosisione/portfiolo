@@ -1,0 +1,139 @@
+        /* Light mode styles */
+        body.light-mode {
+            background-color: #f9f9f9;
+            color: #333333;
+        }
+        
+        .theme-toggle{
+                    display: flex;
+                    justify-self:right ;
+                }
+        /* Adjust other elements for light mode */
+        .light-mode nav {
+            background-color: #ffffff;
+            color: #333333;
+        }
+        
+        .light-mode h1, 
+        .light-mode h2, 
+        .light-mode h3 {
+            color: #222222;
+        }
+        
+        .light-mode .btn {
+            border-color: #333;
+            color: #333;
+        }
+        
+        .light-mode a {
+            color: #0077b5;
+        }
+        
+        .light-mode footer {
+            background-color: #f1f1f1;
+            color: #333;
+        }
+        
+        .theme-toggle {
+            background: none;
+            border: none;
+           
+            color: inherit;
+            cursor: pointer;
+            font-size: 1.5rem;
+            margin-left: auto;
+        }
+        
+        
+        .light-mode  header{
+            background-color: #ffffff;
+            color: #333;
+        }
+        
+        
+        /* Default Mode (Dark) */
+        nav .left {
+            color: #f3f3f3; /* White color in dark mode */
+        }
+        
+        /* Light Mode */
+        body.light-mode nav .left {
+            color: #1a1a2e; /* Dark color for text in light mode */
+        }
+        body.light-mode nav .right ul li a{
+            color: black;
+            font-weight: 500;
+        }
+        
+        
+        /* Wrapper for alignment */
+.theme-toggle-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+/* Custom toggle switch */
+.theme-toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+/* Hide the default checkbox */
+.theme-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Slider styling */
+.theme-toggle .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 15px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    font-size: 18px;
+    color: white;
+}
+
+/* Icon default visibility */
+.theme-toggle .slider .icon-moon {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.theme-toggle .slider .icon-sun {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* Active state */
+input:checked + .slider {
+    background-color: #4caf50;
+}
+ 
+ /* body.light-mode .theme-toggle .slider {
+    background-color: #4caf50;
+}
+ body.dark-mode .theme-toggle .slider {
+    background-color: #4caf50;
+} */
+
+input:checked + .slider .icon-moon {
+    opacity: 0;
+}
+
+input:checked + .slider .icon-sun {
+    opacity: 1;
+}

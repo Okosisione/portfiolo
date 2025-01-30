@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tochukwu's - Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@300&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins&display=swap"
+            rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+        <script src="https://kit.fontawesome.com/7bb0e6d746.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       <!-- my css -->
+        <link rel="stylesheet" href="first.css">
+        <link rel="stylesheet" href="second.css">
+        <link rel="stylesheet" href="third.css">
+        <link rel="stylesheet" href="forth.css">
+        <link rel="stylesheet" href="projects.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="themetoggle.css">
+        <link rel="stylesheet" href="scrolltop.css">
+    </head>
+    <style>
+        body {
+            background-color: #0d0011;
+            /* background-color:(#2B003B); */
+
+            color: rgb(97, 95, 95);
+            font-family: 'Nunito Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            padding: 0%;
+            margin: 0%;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+    </style>
+    
+    <body>
+        
+            <header>
+                <nav class="sticky-top">
+                    <div class="left" style="display: flex; align-items: center;">
+                        <img src="images/logo.jpg" width="50" height="50" alt="Logo" style="margin-right: 10px;"> 
+                        <span>Tochukwu Okolo</span>
+                    </div>
+                    <!-- <h1> <img src="images/logo.jpg" width="50" height="50"  alt="Logo"> Okolo Tochukwu</h1> -->
+
+                    
+                    
+                    <!-- Hamburger Icon for Mobile -->
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    
+                    <div class="right" id="navbar">
+                        <ul>
+                            <li><a href="#first">Home</a></li> 
+                            <li><a href="#second">About</a></li>
+                            <li><a href="#third">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#forth">Contacts</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="theme-toggle-wrapper">
+                    <label class="theme-toggle">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider">
+                            <i class="fa-solid fa-moon icon-moon"></i>
+                            <i class="fa-solid fa-sun icon-sun"></i>
+                        </span>
+                    </label>
+                </div>
+                
+            </header>
+            <main>
+                <section class="first" id="first">
+                    <div class="left-section">
+                        <p>Hey there, I am <span class="name">Tochukwu</span> </p>
+                        <p>and i am a</p>
+                        <span id="element"></span>
+                        <br>
+                        <a href="assets/resume.pdf" class="btn btn-outline-light cvbutton" download>
+                            DOWNLOAD RESUME
+                        </a>
+    
+                    </div>
+                    <div class="right-section">
+                        <img src="images/mypic.jpg" alt="" srcset="">
+                    </div>
+                </section>
+                <br>
+                <hr>
+                <section class="second" id="second">
+                    <div class="left-section">
+                        <img src="images/tem.png" alt="" srcset="">
+                    </div>
+                    <div class="right-section">
+                        <h1>About me</h1>
+                        <br>
+                        <h2>Full Stack Web Developer</h2>
+                        <p>I am a dedicated Full Stack Web Developer with expertise in creating scalable, user-friendly web applications. I specialize in building responsive and visually appealing interfaces using modern frontend technologies, as well as robust server-side logic and efficient database systems on the backend.</p>
+                        <p>With a passion for problem-solving, I enjoy designing and developing solutions that align with client goals and provide seamless user experiences. My skill set spans a wide range of technologies, including RESTful API integration, cloud deployment, and DevOps practices, enabling me to deliver end-to-end solutions.</p>
+                        <p>I thrive in collaborative environments, constantly learning and adapting to emerging trends in web development to ensure innovative and high-quality results. Whether working on an individual project or as part of a team, I am committed to turning ideas into impactful digital products.</p>
+    
+                    </div>
+                </section>
+                <hr>
+                <h1 class="skill-heading">Skills</h1>
+                <section class="third" id="third">
+                    <div class="left-section">
+                        <h2>Technical Skills</h2>
+                        <div class="Techical-bars">
+                            <div class="bar">
+                                <i style="color: #e34c26;" class="fa-brands fa-html5"></i>
+                                <span> HTML</span>
+                                <div class="progress-bar progress-bar1">
+                                    <span class="span1">90%</span>
+                                    <hr class="skills-hr">
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <i style="color: #2695f1;" class="fa-brands fa-css3-alt"></i>
+                                <span> CSS</span>
+                                <div class="progress-bar progress-bar2">
+                                    <span class="span2">85%</span>
+                                    <hr class="skills-hr">
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <i style="color: #f0db4f;" class="fa-brands fa-square-js"></i>
+                                <span> Javascript</span>
+                                <div class="progress-bar progress-bar3">
+                                    <span class="span3">65%</span>
+                                    <hr class="skills-hr">
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <i style="color: #61DBFB;" class="fa-brands fa-react"></i>
+                                <span> React Js</span>
+                                <div class="progress-bar progress-bar4">
+                                    <span class="span4">60%</span>
+                                    <hr class="skills-hr">
+                                </div>
+                            </div>
+                            <div class="bar"><i style="color: #f89820;" class="fa-solid fa-code"></i>
+                                <span> Django </span>
+                                <div class="progress-bar progress-bar5">
+                                    <span class="span5">80%</span>
+                                    <hr class="skills-hr">
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <i style="color: #F48024;" class="fa-brands fa-python"></i>
+                                <span> Python</span>
+                                <div class="progress-bar progress-bar6">
+                                    <span class="span6">70%</span>
+                                    <hr class="skills-hr">
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <i style="color: #333;" class="fa-brands fa-github"></i>
+                                <span> Github</span>
+                                <div class="progress-bar progress-bar3">
+                                    <span class="span3">70%</span>
+                                    <hr class="skills-hr">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <h2>Soft Skills</h2>
+                        <div class="first-row">
+                            <div class="radial-bars">
+                                <div class="radial-progress-bar radial-progress-bar1">
+                                    <progress value="75" min="0" max="100"
+                                        style="visibility:hidden;height:0;width:0;">75%</progress>
+                                </div>
+                                <div class="text3">Communication</div>
+                            </div>
+                            <div class="radial-bars">
+                                <div class="radial-progress-bar radial-progress-bar2">
+                                    <progress value="85" min="0" max="100"
+                                        style="visibility:hidden;height:0;width:0;">85%</progress>
+                                </div>
+                                <div class="text3">Problem Solving</div>
+                            </div>
+                        </div>
+                        <div class="second-row">
+                            <div class="radial-bars">
+                                <div class="radial-progress-bar radial-progress-bar3">
+                                    <progress value="85" min="0" max="100"
+                                        style="visibility:hidden;height:0;width:0;">85%</progress>
+                                </div>
+                                <div class="text2">Creativity</div>
+                            </div>
+                            <div class="radial-bars">
+                                <div class="radial-progress-bar radial-progress-bar4">
+                                    <progress value="8" min="0" max="100"
+                                        style="visibility:hidden;height:0;width:0;">85%</progress>
+                                </div>
+                                <div class="text2">Teamwork</div>
+                            </div>
+                        </div>
+                        <div class="third-row">
+                            <div class="radial-bars">
+                                <div class="radial-progress-bar radial-progress-bar5">
+                                    <progress value="85" min="0" max="100"
+                                        style="visibility:hidden;height:0;width:0;">85%</progress>
+                                </div>
+                                <div class="text1">English</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <section id="projects" class="section projects">
+                    <h2>Projects</h2>
+                    <div class="project-grid">
+                        <!-- Project 1 -->
+                        <div class="project-card">
+                            <h3>Project 1</h3>
+                            <p>A short description of what this project is about.</p>
+                            <a href="https://www.diamasworldnigeria.com/" target="_blank" class="project-link">View Project</a>
+                        </div>
+                
+                        <!-- Project 2 -->
+                        <div class="project-card">
+                            <h3>Project 2</h3>
+                            <p>A short description of what this project is about.</p>
+                            <a href="https://okosisione.github.io/cc-javascript/" target="_blank" class="project-link">View Project</a>
+                        </div>
+                
+                        <!-- Project 3 -->
+                        <div class="project-card">
+                            <h3>Project 3</h3>
+                            <p>A short description of what this project is about.</p>
+                            <a href="https://appolly-green.vercel.app/" target="_blank" class="project-link">View Project</a>
+                        </div>
+    
+                        <div class="project-card">
+                            <h3>Project 4</h3>
+                            <p>A short description of what this project is about.</p>
+                            <a href="https://okosisione.github.io/cc-javascript/exam.html" target="_blank" class="project-link">View Project</a>
+                        </div>
+                
+                        <!-- Project 5 -->
+                        <div class="project-card">
+                            <h3>Project 5</h3>
+                            <p>A short description of what this project is about.</p>
+                            <a href="https://github.com/yourusername/project5" target="_blank" class="project-link">View Project</a>
+                        </div>
+                
+                        <!-- Project 6 -->
+                        <div class="project-card">
+                            <h3>Project 6</h3>
+                            <p>A short description of what this project is about.</p>
+                            <a href="https://github.com/yourusername/project6" target="_blank" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="forth" id="forth">
+                    <div class="left-section">
+                        <h2>Contact me</h2>
+                        <h4>Let's work together</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium enim cum assumenda
+                            temporibus iure qui? Aliquam labore, ex corrupti repudiandae facilis
+                            sed distinctio libero atque vitae cupiditate, suscipit nemo ipsam fugiat molestiae fugit numquam
+                            explicabo!</p>
+                        <div class="contact-list">
+                            <li><i class="fa-regular fa-envelope"></i><a href="mailto:okolotochukwumoshe@gmail.com">okolotochukwumoshe@gmail.com</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+2348031875173">+2348031875173</a>
+                            </li>
+                        </div>
+                        <!-- <div class="contact-icons">
+                            <a class="social_links insta" href=""><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a class="social_links twitter " href=""><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a class="social_links linkedin" href=""><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a class="social_links github" href=""><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div> -->
+                    </div>
+    
+                    <div class="right-section">
+                        <form action="https://formspree.io/f/meoqzdjw" method="POST">
+                            <!-- Name field with autocomplete -->
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required autocomplete="name">
+                    
+                            <!-- Email field with autocomplete -->
+                            <label for="email">Your email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email">
+                            
+                            <!-- Message field with autocomplete turned off -->
+                            <label for="message">Your message:</label>
+                            <textarea id="message" name="message" placeholder="Write your message" required autocomplete="off"></textarea>
+                            
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </section>
+                
+    
+                <footer class="footer">
+                    <div class="container">
+                            <!-- About Section -->
+                            <div class="footer-section about">
+                                <h3>About Me</h3>
+                                <p>I’m a passionate Full Stack Web Developer skilled in creating scalable, user-friendly web applications. With expertise in both frontend and backend technologies, I strive to deliver high-quality solutions. Let’s connect and bring your ideas to life!</p>
+                            </div>
+                
+                            <!-- Quick Links -->
+                            <div class="footer-section links">
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li><a href="#first">Home</a></li>
+                                    <li><a href="#second">About</a></li>
+                                    <li><a href="#third">Skills</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                    <li><a href="#forth">Contact</a></li>
+                                </ul>
+                            </div>
+                
+                            <!-- Social Media -->
+                            <div class="footer-section social">
+                                <h3 style="font-family: 'Roboto', sans-serif;">Follow Me</h3>
+                                <div class="social-icons">
+                                    
+                                    <a href="https://www.whatsapp.com"><img src="images/whatsapp.png" width="32px" height="32px"></a>
+                                    <a href="https://www.facebook.com/"><img src="images/facebook.png" width="32px" height="32px"></a>
+                                    <a href="https://github.com/Okosisione"><img src="images/gitlogo.png" width="32px" height="32px"></a>
+                                    <!-- <a href="https://github.com/yourusername" target="_blank" style="margin: 0 10px;">
+                                        <i class="fa-brands fa-github" style="font-size: 24px; color: black;"></i>
+                                    </a>
+                                    <a href="https://linkedin.com/in/yourprofile" target="_blank" style="margin: 0 10px;">
+                                        <i class="fa-brands fa-linkedin" style="font-size: 24px; color: #0077b5;"></i>
+                                    </a>
+                                    <a href="https://twitter.com/yourusername" target="_blank" style="margin: 0 10px;">
+                                        <i class="fa-brands fa-twitter" style="font-size: 24px; color: #1da1f2;"></i>
+                                    </a>
+                                    <a href="https://instagram.com/yourusername" target="_blank" style="margin: 0 10px;">
+                                        <i class="fa-brands fa-instagram" style="font-size: 24px; color: #e4405f;"></i>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="footer-bottom">
+                            <p>&copy; 2024 Tochukwu Okolo. All rights reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+            </main>
+
+            <button id="scroll-to-top" class="scroll-to-top">
+                ↑
+            </button>
+    
+        
+    
+    
+        <script src="hamburger.js"></script>
+        <script src="themetoggle.js"></script>
+        <script src="scrollTop.js"></script>
+
+    
+        <script>
+            var typed = new Typed('#element', {
+                strings: [ 'Freelancer', 'Web Designer', 'Web Developer'],
+                typeSpeed: 100,
+            });
+        </script>
+    
+    </body>
+    
+    </html>
+    
+</body>
+</html>
